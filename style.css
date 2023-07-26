@@ -6,12 +6,12 @@
 }
 body{
     background: #080808;
-    color: #080808;
+    color: #fff;
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/test.jpg);
+    background-image: url(images/profilbilde.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -78,6 +78,10 @@ nav ul li a:hover::after{
 .about-col{
     flex-basis: 70%;
 }
+.about-col p{
+    margin-top: 15px;
+    font-size: 20px;
+}
 .sub-title{
     font-size: 60px;
     font-weight: 600;
@@ -90,7 +94,7 @@ nav ul li a:hover::after{
 }
 .tab-links{
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -116,7 +120,7 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li span{
     color: #b270e4f1;
-    font-size: 14px;
+    font-size: 20px;
 }
 .tab-contents{
     display: none;
