@@ -18,28 +18,24 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-    position: relative;
 }
 .container{
     padding: 10px 10%; 
 }
-
 nav{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
-
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
 }
-
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
 }
 nav ul li a::after{
@@ -56,20 +52,16 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 .header-text h1{
     font-size: 60px;
-    margin-top: 10px;
+    margin-top: 25%;
 }
 .header-text h1 span{
     color: #b270e4f1;
-}
-.header-text h1 span2{
-    color: #8932ccf1;
 }
 /* ---------------about--------------- */
 #about{
