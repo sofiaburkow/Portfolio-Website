@@ -68,11 +68,6 @@ nav ul li a:hover::after{
     padding: 80px 0;
     color: #ababab
 }
-.row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 .about-col{
     flex-basis: 70%;
 }
@@ -276,9 +271,6 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width: 600px){
-    #header{
-        background-image: url(images/profilbilde.jpeg);
-    }
     .header-text{
         margin-top: 100%;
         font-size: 16px;
@@ -289,6 +281,10 @@ nav .fa-solid{
     nav .fa-solid{
         display: block;
         font-size: 25px;
+    }
+    .fa-bars{
+        padding-top: 30px;
+        color: #9a4bd5f1;
     }
     nav ul{
         background: #9a4bd5f1;
