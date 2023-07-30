@@ -77,13 +77,22 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: #fff;
 }
+/* ---------------expertice--------------- */
+#expertice{
+    padding: 80px 0;
+    color: #ababab
+} 
+.expertice-col p{
+    margin-top: 15px;
+    font-size: 20px;
+}
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
 }
 .tab-links{
     margin-right: 50px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -101,10 +110,9 @@ nav ul li a:hover::after{
 .tab-links.active-link::after{
     width: 50%;
 }
-
 .tab-contents ul li{
     list-style: none;
-    margin: 10px 0;
+    margin: 40px 0;
 }
 .tab-contents ul li span{
     color: #b270e4f1;
@@ -115,15 +123,6 @@ nav ul li a:hover::after{
 }
 .tab-contents.active-tab{
     display: block;
-}
-/* ---------------expertice--------------- */
-#expertice{
-    padding: 80px 0;
-    color: #ababab
-} 
-.expertice-col p{
-    margin-top: 15px;
-    font-size: 20px;
 }
 /* ---------------portfolio--------------- */
 #portfolio{
