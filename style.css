@@ -30,12 +30,12 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 10px 15px;
 }
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
 }
 nav ul li a::after{
@@ -130,8 +130,8 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
-/* ---------------portfolio--------------- */
-#portfolio{
+/* ---------------projects--------------- */
+#projects{
     padding: 80px 0;
 } 
 .work-list{
@@ -193,16 +193,13 @@ nav ul li a:hover::after{
     height: 100%;
 }
 /* ---------------contact--------------- */
-.contact-left{
+.contact-col{
     flex-basis: 35%;
 }
-.contact-right{
-    flex-basis: 60%;
-}
-.contact-left p{
+.contact-col p{
     margin-top: 30px;
 }
-.contact-left p i{
+.contact-col p i{
     color: #9a4bd5f1;
     margin-right: 15px;
     font-size: 25px;
@@ -242,6 +239,9 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width: 600px){
+    #header{
+        background-attachment: fixed;
+    }
     .header-text{
         margin-top: 95%;
         font-size: 16px;
@@ -254,18 +254,21 @@ nav .fa-solid{
         font-size: 25px;
     }
     .fa-bars{
-        padding-top: 30px;
+        position: fixed;
+        top: 30px;
+        right: 20px;
         color: #9a4bd5f1;
+        z-index: 2;
     }
     nav ul{
-        background: #390462;
+        background: #8c6ca4;
         position: fixed;
         top: 0;
         right: -200px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
-        z-index: 2;
+        z-index: 3;
         transition: right 0.5s;
     }
     nav ul li{
