@@ -86,6 +86,12 @@ nav ul li a:hover::after{
     padding: 80px 0;
     color: #ababab
 }
+.work{
+    margin-top: 30px;
+}
+.work h2{
+    color: #b270e4f1;
+}
 /* ---------------education--------------- */
 #education{
     padding: 80px 0;
