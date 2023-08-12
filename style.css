@@ -85,7 +85,7 @@ nav ul li a:hover::after{
 /* ---------------experience--------------- */
 #experience{
     padding: 80px 0;
-    color: #ababab
+    color: #ababab;
 }
 .work{
     margin-top: 30px;
@@ -98,15 +98,18 @@ nav ul li a:hover::after{
     font-size: 25px;
     color: #b270e4f1;
 }
+h3{
+    color: #ffffffe4;
+}
 /* ---------------education--------------- */
 #education{
     padding: 80px 0;
-    color: #ababab
+    color: #ababab;
 }
 /* ---------------expertice--------------- */
 #expertice{
     padding: 80px 0;
-    color: #ababab
+    color: #ababab;
 } 
 .tab-titles{
     display: flex;
