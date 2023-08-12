@@ -88,18 +88,19 @@ nav ul li a:hover::after{
     color: #ababab;
 }
 .work{
-    margin-top: 30px;
-}
-.work p{
-    margin-top: 15px;
-    font-size: 18px;
+    margin: 40px 0;
+    font-size: 20px;
 }
 .work h2{
-    font-size: 25px;
+    font-size: 20px;
     color: #b270e4f1;
 }
-h3{
-    color: #ffffffe4;
+.work h3{
+    font-size: 20px;
+}
+.work p{
+    font-size: 20px;
+    margin-top: 15px;
 }
 /* ---------------education--------------- */
 #education{
