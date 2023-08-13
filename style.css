@@ -8,8 +8,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
-    color: #fff;
+    background: #fff;
+    color: #080808;
 }
 #header{
     width: 100%;
@@ -37,7 +37,7 @@ nav ul li{
     margin: 10px 15px;
 }
 nav ul li a{
-    color: #fff;
+    color: #080808;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -65,7 +65,7 @@ nav ul li a:hover::after{
     margin-top: 25%;
 }
 .header-text h1 span{
-    color: #b270e4f1;
+    color: #a328e0f1;
 }
 /* ---------------about--------------- */
 #about{
@@ -80,7 +80,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: #080808;
 }
 /* ---------------experience--------------- */
 #experience{
@@ -93,7 +93,7 @@ nav ul li a:hover::after{
 }
 .work h2{
     font-size: 20px;
-    color: #b270e4f1;
+    color: #5b1b8bf1;
 }
 .work h3{
     font-size: 20px;
@@ -113,7 +113,7 @@ nav ul li a:hover::after{
 }
 .education h2{
     font-size: 20px;
-    color: #b270e4f1;
+    color: #5b1b8bf1;
 }
 .education h3{
     font-size: 20px;
@@ -156,7 +156,7 @@ nav ul li a:hover::after{
     margin: 40px 0;
 }
 .tab-contents ul li span{
-    color: #b270e4f1;
+    color: #5b1b8bf1;
     font-size: 20px;
 }
 .tab-contents{
@@ -190,7 +190,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.5), #b270e4f1);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), #a36eccf1);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -235,7 +235,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-col p i{
-    color: #b270e4f1;
+    color: #5b1b8bf1;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -246,27 +246,27 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: #080808;
     display: inline-block;
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #b270e4f1;
+    color: #a06fc5f1;
     transform: translateY(-5px);
 }
 .btn{
     display: inline-block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #fff;
+    border: 1px solid #080808;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: #fff;
+    color: #080808;
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #5b1b8bf1; 
+    background: #a06fc5f1; 
 }
 /* ---------------css for small screens--------------- */
 nav .fa-solid{
@@ -297,7 +297,7 @@ nav .fa-solid{
         z-index: 2;
     }
     nav ul{
-        background: #b270e4f1;
+        background: #5b1b8bf1;
         top: 0;
         right: -200px;
         width: 200px;
