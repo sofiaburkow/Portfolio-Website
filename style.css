@@ -29,7 +29,8 @@ nav{
 }
 nav ul {
     position: fixed;
-    z-index: 2;
+    background-color: #ababab;  
+    z-index: 3;
 }
 nav ul li{
     display: inline-block;
