@@ -67,6 +67,26 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #a328e0f1;
 }
+/* ---------------content-style--------------- */
+.content-style{
+    margin: 40px 0;
+    font-size: 20px;
+}
+.content-style h2{
+    font-size: 20px;
+    color: #5b1b8bf1;
+}
+.content-style h3{
+    font-size: 18px;
+}
+.content-style h4{
+    font-size: 20px;
+    color: #080808;
+}
+.content-style p{
+    font-size: 20px;
+    margin-top: 15px;
+}
 /* ---------------about--------------- */
 #about{
     padding: 80px 0;
@@ -87,50 +107,6 @@ nav ul li a:hover::after{
     padding: 80px 0;
     color: #ababab;
 }
-.content-style{
-    margin: 40px 0;
-    font-size: 20px;
-}
-.content-style h2{
-    font-size: 20px;
-    color: #5b1b8bf1;
-}
-.content-style h3{
-    font-size: 18px;
-}
-.content-style h4{
-    font-size: 18px;
-    color: #080808;
-}
-.content-style p{
-    font-size: 20px;
-    margin-top: 15px;
-}
-/* ---------------education--------------- */
-#education{
-    padding: 80px 0;
-    color: #ababab;
-}
-.education{
-    margin: 40px 0;
-    font-size: 20px;
-}
-.education h2{
-    font-size: 20px;
-    color: #5b1b8bf1;
-}
-.education h3{
-    font-size: 20px;
-}
-.education p{
-    font-size: 20px;
-    margin-top: 15px;
-}
-/* ---------------expertice--------------- */
-#expertice{
-    padding: 80px 0;
-    color: #ababab;
-} 
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
@@ -155,20 +131,22 @@ nav ul li a:hover::after{
 .tab-links.active-link::after{
     width: 50%;
 }
-.tab-contents ul li{
-    list-style: none;
-    margin: 40px 0;
-}
-.tab-contents ul li span{
-    color: #5b1b8bf1;
-    font-size: 20px;
-}
 .tab-contents{
     display: none;
 }
 .tab-contents.active-tab{
     display: block;
 }
+/* ---------------education--------------- */
+#education{
+    padding: 80px 0;
+    color: #ababab;
+}
+/* ---------------expertice--------------- */
+#expertice{
+    padding: 80px 0;
+    color: #ababab;
+} 
 /* ---------------projects--------------- */
 #projects{
     padding: 80px 0;
