@@ -29,7 +29,6 @@ nav{
 }
 nav ul {
     position: fixed;
-    background-color: #ababab;  
     z-index: 3;
 }
 nav ul li{
@@ -97,6 +96,10 @@ nav ul li a:hover::after{
     color: #5b1b8bf1;
 }
 .work h3{
+    font-size: 18px;
+    color: #080808;
+}
+.work h4{
     font-size: 20px;
 }
 .work p{
