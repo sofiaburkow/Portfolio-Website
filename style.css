@@ -24,17 +24,22 @@ body{
 }
 nav{
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
 }
 nav ul {
     position: fixed;
     z-index: 3;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 15px;
+    margin: 30px 25px;
 }
 nav ul li a{
     color: #080808;
@@ -78,9 +83,6 @@ nav ul li a:hover::after{
 }
 .content-style h3{
     font-size: 18px;
-}
-.content-style h4{
-    font-size: 20px;
     color: #080808;
 }
 .content-style p{
@@ -89,7 +91,7 @@ nav ul li a:hover::after{
 }
 /* ---------------about--------------- */
 #about{
-    padding: 80px 0;
+    padding: 50px 0;
     color: #ababab
 }
 .info-col p{
@@ -104,7 +106,7 @@ nav ul li a:hover::after{
 }
 /* ---------------experience--------------- */
 #experience{
-    padding: 80px 0;
+    padding: 40px 0;
     color: #ababab;
 }
 .tab-titles{
@@ -139,17 +141,17 @@ nav ul li a:hover::after{
 }
 /* ---------------education--------------- */
 #education{
-    padding: 80px 0;
+    padding: 40px 0;
     color: #ababab;
 }
 /* ---------------expertice--------------- */
 #expertice{
-    padding: 80px 0;
+    padding: 40px 0;
     color: #ababab;
 } 
 /* ---------------projects--------------- */
 #projects{
-    padding: 80px 0;
+    padding: 40px 0;
 } 
 .projects-list{
     display: grid;
@@ -186,9 +188,10 @@ nav ul li a:hover::after{
     text-align: center;
     font-size: 14px;
     transition: height 0.5s;
+    font-weight: 500;
 }
 .layer h3{
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 .layer a{
@@ -260,8 +263,7 @@ nav .fa-solid{
         background-image: url(images/profilbilde.jpeg);
     }
     .header-text{
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 120%;
     }
     .header-text h1{
         font-size: 30px;
@@ -279,23 +281,32 @@ nav .fa-solid{
     }
     nav ul{
         background: #5b1b8bf1;
-        top: 0;
+        left: auto;
         right: -200px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
         z-index: 3;
         transition: right 0.5s;
+        display: block;
     }
     nav ul li{
         display: block;
         margin: 25px;
+
     }
     nav ul .fa-solid{
         position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
+    }
+    .info-col h1{
+        font-size: 40px;
+    }
+    .info-col p{
+        font-size: 19px;
+        max-width: 88%;
     }
 }
 
